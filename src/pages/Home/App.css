@@ -1,0 +1,86 @@
+.app {
+}
+
+.app--content {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.app--content--background {
+  position: absolute;
+  height: 100vh;
+  left: 0;
+}
+
+.app--content--info {
+  width: 60%;
+  margin-right: 90px;
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+
+input{
+  border: 1px solid #999999;
+  border-radius: 22px;
+  min-width: 250px;
+  width: 82%;
+  margin-right: 12px;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+button{
+  border: 1px solid #999999;
+  border-radius: 22px;
+  color: #FFFFFF;
+  margin-right: 12px;
+  background: #203338;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.app--content--profile{
+  display: flex;
+  margin: 40px 0;
+}
+
+.app--content--profile h3 {
+  color: #999999;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+}
+
+.app--content--profile p {
+  color: #999999;
+  font-size: 12px;
+  margin: 0;
+}
+
+.app--content--profile span {
+  display: block;
+  color: #999999;
+  font-size: 12px;
+  margin: 0;
+}
+
+.app--content--profile--img{
+  width: 120px;
+  height: 120px;
+  border: 2px solid #e5e5e5;
+  border-radius: 60px;
+  margin-right: 32px;
+}
+
+.app--content--repositories {
+  font-size: 28px;
+  color: #FFFFFF;
+  margin: 12px 0;
+  text-align: center;
+
+}
